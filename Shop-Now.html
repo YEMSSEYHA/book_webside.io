@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Shop-Now.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Khmer&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- flowbit-link -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="hearder">
+        <div class="hearder_left">
+            <div class="logo">
+                <img src="img/logo.jpg">
+            </div>
+            <div class="menu">
+                <a class="Link-menu" href="bookstor.html">HOME</a>
+                <a class="Link-menu" href="">PRODUCT</a>
+                <a class="Link-menu" href="">SERVICE</a>
+                <a class="Link-menu" href="">WATCHES</a>
+                <a class="Link-menu" href="">SALE</a>
+            </div>
+        </div>
+        <div class="hearder_right">
+            <div class="icon">
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-magnifying-glass"></i></td>
+                        <td><i class="fa-regular fa-circle-user"></i></td>
+                        <td><i class="fa-solid fa-bag-shopping"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="bg-sli">
+        <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-96 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="img/Sli-1.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/slie-2.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/slie-3.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/slie-4.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/sli-5.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+    </div>
+    <!-- tittle -->
+     <div class="title">
+        <div class="titile-1">
+            <h2>សៀវភៅប្រលោមលោកបែបស្នែហា</h2>
+        </div>
+        <div class="Go-Shop">
+            <a class="Go" href="">Go To Shop</a>
+        </div>
+     </div>
+    <!-- All books -->
+    <div class="BOOK-BG">
+
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-2.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-3.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">២៤០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-4.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៥០០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-5.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤៤០០០៛</font></h3></div>
+        </div>
+    </div>
+    
+    <!-- Row-2 -->
+    <!-- tittle -->
+     <div class="title">
+        <div class="titile-1">
+            <h2>សៀវភៅប្រលោមលោកបែបស្នែហា</h2>
+        </div>
+        <div class="Go-Shop">
+            <a class="Go" href="">Go To Shop</a>
+        </div>
+     </div>
+    <!-- All books -->
+    <div class="BOOK-BG">
+
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-6.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-7.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-8.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-9.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+    </div>
+
+    <!-- Row-3 -->
+    <!-- tittle -->
+     <div class="title">
+        <div class="titile-1">
+            <h2>សៀវភៅប្រលោមលោកបែបស្នែហា</h2>
+        </div>
+        <div class="Go-Shop">
+            <a class="Go" href="">Go To Shop</a>
+        </div>
+     </div>
+    <!-- All books -->
+    <div class="BOOK-BG">
+
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/book-10.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/11.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/12.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤០០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/13.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤៤០០០៛</font></h3></div>
+        </div>
+    </div>
+
+    <!-- Row-4 -->
+    <!-- tittle -->
+     <div class="title">
+        <div class="titile-1">
+            <h2>សៀវភៅប្រលោមលោកបែបស្នែហា</h2>
+        </div>
+        <div class="Go-Shop">
+            <a class="Go" href="">Go To Shop</a>
+        </div>
+     </div>
+    <!-- All books -->
+    <div class="BOOK-BG">
+
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/14.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/15.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/16.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤០០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/17.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤៤០០០៛</font></h3></div>
+        </div>
+    </div>
+
+    <!-- Row-4 -->
+    <!-- tittle -->
+     <div class="title">
+        <div class="titile-1">
+            <h2>សៀវភៅប្រលោមលោកបែបស្នែហា</h2>
+        </div>
+        <div class="Go-Shop">
+            <a class="Go" href="">Go To Shop</a>
+        </div>
+     </div>
+    <!-- All books -->
+    <div class="BOOK-BG">
+
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/18.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/19.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៣៦០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/20.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤០០០០៛</font></h3></div>
+        </div>
+        <div class="book-1">
+            <div class="Books">
+            <img src="img/21.jpg" alt=""></div>
+            <div class="text"><h3>តម្លែត្រឹមតែ <font style="color: red;">៤៤០០០៛</font></h3></div>
+        </div>
+    </div>
+</body>
+<!-- Scrip flowbit -->
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+</html>

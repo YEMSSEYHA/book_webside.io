@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.hearder {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px #10101040;
+    margin-bottom: 5px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.hearder_left {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 100px;
+    border: 2px solid rgb(219, 219, 219);
+    margin-top: 3px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.menu {
+    width: 600px;
+    padding-top: 25px;
+}
+
+.Link-menu {
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(227, 0, 136);
+}
+/* icon */
+.icon{
+    width: 150px;
+    height: 80px;
+    margin-right: 20px;
+}
+table{
+   width:100%;
+}
+i{
+    font-size: 20pt;
+    padding-top: 20px;
+    color: rgb(34, 10, 137);
+}
+.bg-sli{
+    width: 80%;
+    height:400px;
+    margin-left: 10%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.BOOK-BG{
+    width: 85%;
+    height: 350px;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+.BOOK-BG .book-1{
+    width: 300px;
+    height: 380;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #10101040;
+}
+.title{
+    width: 85%;
+    height: 50px;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(210, 210, 210, 0.259);
+}
+.titile-1 h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Kh Ang Theara MS";
+    padding-top: 8px;
+}
+.Go{
+    font-size: 18px;
+    color: rgb(220, 4, 4);
+    font-weight: bolder;
+    padding-top: 8px;
+    font-family: "DM Sans", sans-serif;
+}
+.Books{
+    width: 100%;
+    height:300px;
+    margin-bottom: 5px;
+}
+.Books img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Books img:hover{
+    transform: scale(1.05); 
+}
+.text{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(208, 208, 208);
+}
+.text h3{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: "Kh Ang Theara MS";
+}
